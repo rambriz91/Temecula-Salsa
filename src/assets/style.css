@@ -8,14 +8,23 @@
     --cilantro: #5e9321;
 }
 
+h2 {
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 header {
     background-color: var(--super-white);
 }
 
 figure {
     background-image: url('/images/Tamale-banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height:500px;
 }
 
 #tsc-logo {
-    width: 350px;
+    width: 250px;
 }
