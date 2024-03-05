@@ -2,7 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 function Navigation() {
   return (
-    <nav className='w-2/3'>
+    <nav className='w-3/4'>
       <ul>
         <li>
           Home
