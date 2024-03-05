@@ -3,7 +3,7 @@ import Navigation from './Navigation';
 function Header() {
   return (
     <header className='flex'>
-      <div className='p-2 w-1/4 flex justify-center'>
+      <div id='logo-container' className='p-2 w-1/4 flex justify-center'>
         <img
           id='tsc-logo'
           src='/images/TSC Logo.png'

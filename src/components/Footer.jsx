@@ -8,7 +8,7 @@ function Footer() {
             <img src="/images/icons8-instagram-96.png" alt="Instagram Logo" />
         </div>
         <div className='flex justify-center p-4'>
-        <p>©️ 2024 Temecula Salsa Co All Rights Reserved</p>
+        <p className='franklin'>©️ 2024 Temecula Salsa Co All Rights Reserved</p>
     </div>
     </div>
 </footer>

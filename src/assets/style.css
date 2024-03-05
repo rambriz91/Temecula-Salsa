@@ -3,33 +3,79 @@
 @tailwind utilities;
 
 :root {
-    --super-white: white;
-    --chili: #dc010b;
-    --cilantro: #5e9321;
+  --super-white: white;
+  --chili: #dc010b;
+  --cilantro: #5e9321;
+  --rosa-pastel: rgb(238, 233, 233)
 }
 
 h2 {
-    font-size: 2rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h3 {
-    font-size: 1.5rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--cilantro);
 }
 
 header {
-    background-color: var(--super-white);
+  background-color: var(--super-white);
 }
 
 figure {
-    background-image: url('/images/Tamale-banner.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height:500px;
+  background-image: url('/images/Tamale-banner.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
+
+#home {
+  background-color: var(--rosa-pastel);
 }
 
 #tsc-logo {
-    width: 250px;
+  width: 250px;
+}
+
+.menu-card {
+  background-color: var(--super-white);
+  box-shadow: 4px 4px 3px 3px rgb(96, 84, 84);
+  border-radius: 2%;
+}
+
+.chili {
+  color: var(--chili);
+}
+
+.franklin {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width: 985px) {
+  .menu-card {
+    width: 33.333333%;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:750px) {
+    .menu-card {
+        width: 80%;
+    }
+    #logo-container {
+        width: 75%;
+        justify-content: end;
+    }
+    #navbar {
+        width: 25%;
+        justify-content: end;
+    }
 }

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "item": "Taco Dorado",
+        "src": "/images/taco.png",
+        "desc": "Crunchy Golden Taco with ground beef and potato filling, topped with iceberg lettuce and our salsa.",
+        "price": 3.99,
+        "alt": "A Crunchy Taco"
+    },
+    {
+        "id": 2,
+        "item": "Tamal Verde",
+        "src": "/images/tamal.png",
+        "desc": "Our most popular menu item. A green tamal with chicken and green salsa filling. Mildly spicy!",
+        "price": 5.99,
+        "alt": "Cactus Salad"
+    },
+    {
+        "id": 3,
+        "item": "Pico de Nopal",
+        "src": "/images/Cactus-pico.png",
+        "desc": "Traditional Nopal Cactus Pico with chopped onion, tomato, cilantro, and spices. Very refreshing!",
+        "price": 5.99,
+        "alt": "Cactus Salad"
+    }
+]
