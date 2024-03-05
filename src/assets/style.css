@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --super-white: white;
+    --chili: #dc010b;
+    --cilantro: #5e9321;
+}
+
+header {
+    background-color: var(--super-white);
+}
+
+figure {
+    background-image: url('/images/Tamale-banner.png');
+}
+
+#tsc-logo {
+    width: 350px;
+}
