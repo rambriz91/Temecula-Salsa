@@ -6,7 +6,7 @@
   --super-white: white;
   --chili: #dc010b;
   --cilantro: #5e9321;
-  --rosa-pastel: rgb(238, 233, 233)
+  --rosa-pastel: rgb(238, 233, 233);
 }
 
 h2 {
@@ -45,6 +45,10 @@ figure {
   width: 250px;
 }
 
+#hmbrgr {
+  display: none;
+}
+
 .menu-card {
   background-color: var(--super-white);
   box-shadow: 4px 4px 3px 3px rgb(96, 84, 84);
@@ -59,23 +63,82 @@ figure {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.nav-default {
+  height: 100%;
+  font-size: 1.5rem;
+}
+
+.nav-default li:hover {
+  color: var(--chili);
+}
+
 @media (max-width: 985px) {
   .menu-card {
     width: 33.333333%;
     flex-wrap: wrap;
   }
+  #logo-container {
+    width: 50%;
+    justify-content: center;
+  }
+  #navbar {
+    width: 50%;
+    justify-content: center;
+  }
 }
 
-@media (max-width:750px) {
-    .menu-card {
-        width: 80%;
-    }
-    #logo-container {
-        width: 75%;
-        justify-content: end;
-    }
-    #navbar {
-        width: 25%;
-        justify-content: end;
-    }
+@media (max-width: 750px) {
+  .menu-card {
+    width: 80%;
+  }
+  #logo-container {
+    width: 90%;
+  }
+  #navbar {
+    width: 10%;
+    font-size: 1.5rem;
+    margin: 2%;
+  }
+  .nav-default {
+    display: none;
+    position: absolute;
+    right: 10%;
+    background-color: var(--rosa-pastel);
+    padding: 25px;
+    height: fit-content;
+    border-radius: 5%;
+    box-shadow: 4px 4px 3px 3px rgb(96, 84, 84);
+    font-size: 3rem;
+  }
+
+  .nav-default.is-open {
+    display: block;
+  }
+
+  #hmbrgr {
+    display: block;
+  }
+}
+
+@media (max-width: 450px) {
+  #logo-container {
+    width: 85%;
+    justify-content: end;
+  }
+  figure {
+    display: none;
+  }
+  .nav-default {
+    display: none;
+  }
+
+  #hmbrgr {
+    display: block;
+  }
+  #navbar {
+    width: 15%;
+    margin-right: 5%;
+    margin-top: 2%;
+    font-size: 1.75rem;
+  }
 }
