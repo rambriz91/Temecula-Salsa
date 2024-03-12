@@ -63,6 +63,10 @@ figure {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.glow {
+  color: var(--cilantro);
+}
+
 .nav-default {
   height: 100%;
   font-size: 1.5rem;
