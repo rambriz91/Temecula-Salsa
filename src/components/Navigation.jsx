@@ -8,6 +8,8 @@ function Navigation() {
   const toggleMenu = () => {
     setIsOpen((open) => !open);
   };
+//*bug menu is toggled open despite isOpen being set to false
+  console.log(isOpen)
 
   return (
     <nav id='navbar' className='w-3/4'>
