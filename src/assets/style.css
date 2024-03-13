@@ -41,6 +41,10 @@ figure {
   background-color: var(--rosa-pastel);
 }
 
+#location {
+  background-color: var(--rosa-pastel);
+}
+
 #tsc-logo {
   width: 500px;
 }
@@ -135,7 +139,6 @@ figure {
   .nav-default {
     display: none;
   }
-
   #hmbrgr {
     display: block;
   }
@@ -144,5 +147,8 @@ figure {
     margin-right: 5%;
     margin-top: 2%;
     font-size: 1.75rem;
+  }
+  .hide {
+    display: none;
   }
 }

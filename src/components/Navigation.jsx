@@ -4,12 +4,10 @@ import { useState } from 'react';
 function Navigation() {
   const currentPage = useLocation().pathname;
 
-  const [isOpen, setIsOpen] = useState('false');
+  const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => {
     setIsOpen((open) => !open);
   };
-//*bug menu is toggled open despite isOpen being set to false
-  console.log(isOpen)
 
   return (
     <nav id='navbar' className='w-3/4'>
